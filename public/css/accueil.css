@@ -1,0 +1,294 @@
+header {
+    background-color: rgb(10, 10, 122);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+
+}
+
+.menu {
+    display: flex;
+    width: 65%;
+    height: 30%;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.nav-item {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.nav-item:hover {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 1s;
+    height: 50px;
+    padding: 35.5px 0;
+    color: rgb(255, 251, 0);
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+    text-underline-offset: 40px;
+}
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(32, 31, 31);
+    border-radius: 50px;
+    background-color: rgb(32, 31, 31);
+    text-align: center;
+}
+
+.logo div {
+    color: yellow;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.logo div img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-item{
+        font-size: 0.9em;
+    }
+    .logo div{
+        font-size: 1.2em;
+    }
+}
+
+/* ////////////////////////////////////////////////// */
+
+.container {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/pi.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid blue;
+    z-index: 1;
+}
+
+.container1 {
+    width: 74%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#name {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 115px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    text-decoration: underline;
+    border: 3px solid white;
+    height: 0;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.container1 div {
+    display: flex;
+}
+
+#importance {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 450px;
+
+}
+
+.description {
+    color: white;
+    font-size: 1.63em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.line1 {
+    margin-left: 30px;
+}
+
+.line2 {
+    margin-right: 30px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+
+}
+
+.container2_2 {
+    height: 130px;
+}
+
+.container2_1 {
+    color: rgb(119, 33, 33);
+    font-size: 2.6em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#description1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.55em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#description1_1 {
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 1.55em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container3 {
+    width: 80%;
+    height: 500px;
+    border: 1px solid rgb(5, 61, 5);
+    margin: auto;
+    display: flex;
+}
+
+#image1,
+.textes,
+#image_2,
+#image_3,
+#image_4 {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#image1 {
+    background-image: url('../images/mp.jpeg');
+    overflow: hidden;
+}
+
+#image_2 {
+    background-image: url('../images/Sans titre.jpeg');
+}
+
+#image_3 {
+    background-image: url('../images/vr.jpeg');
+}
+
+#image_4 {
+    background-image: url('../images/vo.jpeg');
+}
+
+
+#image1:hover {
+    background-image: url('../images/mp.jpeg');
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+
+
+.textes {
+    color: rgb(0, 0, 0);
+    font-size: 1.75em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot_logo {
+    display: flex;
+    width: 20%;
+    height: 30%;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+.logos {
+    font-size: 30px;
+    color: white;
+}
+
+.foot_item {
+    font-size: 28px;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+.logos:hover {
+    color: yellow;
+}

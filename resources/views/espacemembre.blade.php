@@ -1,0 +1,1 @@
+Bonjour {{ session('client')->username }}
